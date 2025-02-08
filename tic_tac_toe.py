@@ -278,7 +278,7 @@ class BoardUI:
                 pygame.draw.rect(self.screen, "dodgerblue3", (900 / self.offset, 300 / self.offset, 100 / self.offset, 300 / self.offset))
                 pygame.draw.rect(self.screen, "deepskyblue3", (900 / self.offset, 600 / self.offset, 100 / self.offset, 300 / self.offset))
 
-        # Makes the modes button change colour when the mode is selected.
+        # Makes the mode buttons change colour when the mode is selected.
         match self.board.mode:
 
             case "pvp":
